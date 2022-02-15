@@ -23,7 +23,7 @@ public class ImdbTest {
 
     @BeforeEach
     public void setUp() {
-        open("https://www.imdb.com/");
+        open("/");
     }
 
     @Test
