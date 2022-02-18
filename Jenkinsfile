@@ -7,6 +7,7 @@ pipeline {
             }
         }
         stage('Test') {
+            when { expression { false}}
             // parallelize browser tests
             parallel {
                 stage('test: chrome') {
